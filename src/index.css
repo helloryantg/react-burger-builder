@@ -6,9 +6,54 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: darkgrey;;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.ingredients {
+  width: 50%;
+}
+
+.burger-stack {
+  width: 50%;
+}
+
+.BurgerPane {
+  height: 100%;
+}
+
+.BurgerStack {
+  height: 90%;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.BurgerIngredient, .Ingredients {
+  height: 40px;
+  width: 40%;
+  margin: 10px auto;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.BurgerIngredient {
+  border-radius: 20px;
+  font-size: 150%;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  height: 90%;
+  width: 20%;
+  margin: auto 0;
+  font-size: 140%;
 }
